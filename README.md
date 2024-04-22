@@ -1,7 +1,7 @@
 # BIT-Thesis-Latex (English Version)
 The latex template for BIT-Thesis submission (Masters and PhD) (English Version)
 
-## Steps to Configure
+## Setup the environment
 1. Download TexLive
 ```
 https://eu.mirrors.cicku.me/ctan/systems/texlive/Images/texlive2023.iso
@@ -21,7 +21,6 @@ tlmgr update bithesis
 ```
 4. Download and Install TeXstudio
    https://www.texstudio.org/
-5. Settings > Time & Language > Language & Region > Add a Language
-   Install Chinese (Simplified, China)
+5. Settings > Time & Language > Language & Region > Add a Language > Install Chinese (Simplified, China)
 6. Download and install TeXstudio
 7. Open main.tex and Run
