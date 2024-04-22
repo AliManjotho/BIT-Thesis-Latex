@@ -11,6 +11,7 @@ https://eu.mirrors.cicku.me/ctan/systems/texlive/Images/texlive2023.iso
 
    Open PowerShell for Windows
 
+```PowerShell
    	latexmk --version
 	  xelatex --version
 	  biber --version
@@ -18,6 +19,7 @@ https://eu.mirrors.cicku.me/ctan/systems/texlive/Images/texlive2023.iso
 	  tlmgr update --self
 	  tlmgr install bithesis
 	  tlmgr update bithesis
+```
 
 4. Download and Install TeXstudio
    https://www.texstudio.org/
