@@ -22,12 +22,8 @@ https://eu.mirrors.cicku.me/ctan/systems/texlive/Images/texlive2023.iso
 4. Download and Install TeXstudio
    https://www.texstudio.org/
 
-5. Open main.tex file and compile
-
-
 5. Settings > Time & Language > Language & Region > Add a Language
-
-	install Chinese (Simplified, China)
+   Install Chinese (Simplified, China)
 
 6. Download and install TeXstudio
-7. Open main.tex from Downloaded templete and Run
+7. Open main.tex and Run
