@@ -1,4 +1,4 @@
-# BIT-Thesis-Latex
+# BIT-Thesis-Latex (English Version)
 The latex template for BIT-Thesis submission (Masters and PhD) (English Version)
 
 ## Steps to Configure
