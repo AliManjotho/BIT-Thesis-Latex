@@ -24,3 +24,10 @@ tlmgr update bithesis
 5. Settings > Time & Language > Language & Region > Add a Language > Install Chinese (Simplified, China)
 6. Download and install TeXstudio
 7. Open main.tex and Run
+
+[!NOTE]
+For Blind Review submission, set the flag blindPeerReview=true in the documentclass tag with in main.tex file. 
+
+```latex
+\documentclass[type=doctor,twoside=false, english=true, blindPeerReview=true]{bithesis}
+```
