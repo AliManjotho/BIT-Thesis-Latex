@@ -8,7 +8,7 @@ https://eu.mirrors.cicku.me/ctan/systems/texlive/Images/texlive2023.iso
 ```
 3. Install TexLive by running install-tl-windows.exe
 4. Confirm installation
-5. Open PowerShell for Windows
+5. Open PowerShell for Windows and run following commands one-by-one
 
 ```PowerShell
 latexmk --version
