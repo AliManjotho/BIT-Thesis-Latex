@@ -23,7 +23,9 @@ tlmgr update bithesis
    https://www.texstudio.org/
 5. Settings > Time & Language > Language & Region > Add a Language > Install Chinese (Simplified, China)
 6. Download and install TeXstudio
-7. Open main.tex and Run
+7. Download this repository Code > Download Zip
+8. Extract the downloaded archieve
+9. Open main.tex and Run
 
 
 > [!NOTE]
