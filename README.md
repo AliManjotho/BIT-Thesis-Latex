@@ -25,9 +25,9 @@ tlmgr update bithesis
 6. Download and install TeXstudio
 7. Open main.tex and Run
 
-[!NOTE]
-For Blind Review submission, set the flag blindPeerReview=true in the documentclass tag with in main.tex file. 
 
+> [!NOTE]
+> For Blind Review submission, set the flag blindPeerReview=true in the documentclass tag with in main.tex file. 
 ```latex
 \documentclass[type=doctor,twoside=false, english=true, blindPeerReview=true]{bithesis}
 ```
