@@ -1,0 +1,46 @@
+\hypersetup {hidelinks}
+\contentsline {chapter}{\numberline {Chapter 1}Introduction}{1}{chapter.1}%
+\contentsline {section}{\numberline {1.\hspace {1bp}1}Background}{1}{section.1.1}%
+\contentsline {section}{\numberline {1.\hspace {1bp}2}Motivation}{1}{section.1.2}%
+\contentsline {subsection}{\numberline {1.\hspace {1bp}2.\hspace {1bp}1}Human-Robot Interaction (HRI)}{2}{subsection.1.2.1}%
+\contentsline {section}{\numberline {1.\hspace {1bp}3}Research Gaps in Existing Studies}{2}{section.1.3}%
+\contentsline {section}{\numberline {1.\hspace {1bp}4}Problem Formulation}{4}{section.1.4}%
+\contentsline {section}{\numberline {1.\hspace {1bp}5}Research Questions}{5}{section.1.5}%
+\contentsline {section}{\numberline {1.\hspace {1bp}6}Research Aim and Objectives}{6}{section.1.6}%
+\contentsline {section}{\numberline {1.\hspace {1bp}7}Significance of the study}{6}{section.1.7}%
+\contentsline {section}{\numberline {1.\hspace {1bp}8}Contributions of the Study}{6}{section.1.8}%
+\contentsline {section}{\numberline {1.\hspace {1bp}9}Thesis Organization}{6}{section.1.9}%
+\contentsline {chapter}{\numberline {Chapter 2}Literature Review}{8}{chapter.2}%
+\contentsline {section}{\numberline {2.\hspace {1bp}1}Motion Data Representation}{8}{section.2.1}%
+\contentsline {subsection}{\numberline {2.\hspace {1bp}1.\hspace {1bp}1}Keypoint-based Representation}{8}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.\hspace {1bp}1.\hspace {1bp}2}Rotation-based Representation}{8}{subsection.2.1.2}%
+\contentsline {subsection}{\numberline {2.\hspace {1bp}1.\hspace {1bp}3}The SMPL Model}{8}{subsection.2.1.3}%
+\contentsline {chapter}{\numberline {Chapter 3}Connecting Action Semantics and Human Motion using Fuzzy Qualitative Kinematics}{9}{chapter.3}%
+\contentsline {section}{\numberline {3.\hspace {1bp}1}Introduction}{9}{section.3.1}%
+\contentsline {section}{\numberline {3.\hspace {1bp}2}Related Work}{9}{section.3.2}%
+\contentsline {subsection}{\numberline {3.\hspace {1bp}2.\hspace {1bp}1}Human Motion Representation}{9}{subsection.3.2.1}%
+\contentsline {section}{\numberline {3.\hspace {1bp}3}Method}{9}{section.3.3}%
+\contentsline {subsection}{\numberline {3.\hspace {1bp}3.\hspace {1bp}1}Quantized Fuzzy Membership Function}{9}{subsection.3.3.1}%
+\contentsline {chapter}{\numberline {Chapter 4}From Action to Reaction: Latent Space Regularization and Alignment for Human Reaction Motion Generation with Intermediate Motion Semantics}{12}{chapter.4}%
+\contentsline {section}{\numberline {4.\hspace {1bp}1}Summary}{12}{section.4.1}%
+\contentsline {section}{\numberline {4.\hspace {1bp}2}Introduction}{12}{section.4.2}%
+\contentsline {section}{\numberline {4.\hspace {1bp}3}Related Work}{12}{section.4.3}%
+\contentsline {subsection}{\numberline {4.\hspace {1bp}3.\hspace {1bp}1}Human Motion Generation}{12}{subsection.4.3.1}%
+\contentsline {section}{\numberline {4.\hspace {1bp}4}Method}{12}{section.4.4}%
+\contentsline {subsection}{\numberline {4.\hspace {1bp}4.\hspace {1bp}1}Problem Formulation}{12}{subsection.4.4.1}%
+\contentsline {subsection}{\numberline {4.\hspace {1bp}4.\hspace {1bp}2}Overview}{13}{subsection.4.4.2}%
+\contentsline {section}{\numberline {4.\hspace {1bp}5}Implementation Details}{13}{section.4.5}%
+\contentsline {section}{\numberline {4.\hspace {1bp}6}Experiments}{15}{section.4.6}%
+\contentsline {subsection}{\numberline {4.\hspace {1bp}6.\hspace {1bp}1}Datasets}{15}{subsection.4.6.1}%
+\contentsline {subsection}{\numberline {4.\hspace {1bp}6.\hspace {1bp}2}Evaluation Metrics}{15}{subsection.4.6.2}%
+\contentsline {subsection}{\numberline {4.\hspace {1bp}6.\hspace {1bp}3}State-of-the-Art Comparisons}{15}{subsection.4.6.3}%
+\contentsline {subsection}{\numberline {4.\hspace {1bp}6.\hspace {1bp}4}Ablation Study}{15}{subsection.4.6.4}%
+\contentsline {section}{\numberline {4.\hspace {1bp}7}Conclusion}{18}{section.4.7}%
+\contentsline {section}{\numberline {4.\hspace {1bp}8}Future Work}{18}{section.4.8}%
+\contentsline {chapter}{Conclusions}{19}{chapter*.19}%
+\contentsline {chapter}{References}{20}{chapter*.20}%
+\contentsline {chapter}{\numberline {Appendix\hspace {1ex}A}SMPL Parameter Settings}{22}{appendix.A}%
+\contentsline {chapter}{Publications During Studies}{23}{appendix*.21}%
+\contentsline {chapter}{Acknowledgement}{24}{appendix*.22}%
+\contentsline {chapter}{Author Biography}{25}{appendix*.23}%
+\contentsfinish 

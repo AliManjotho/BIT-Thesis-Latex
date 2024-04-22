@@ -1,0 +1,177 @@
+%%
+% The BIThesis Template for Graduate Thesis
+%
+% Copyright 2020-2023 Yang Yating, BITNP
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License, either version 1.3
+% of this license or (at your option) any later version.
+% The latest version of this license is in
+%   http://www.latex-project.org/lppl.txt
+% and version 1.3 or later is part of all distributions of LaTeX
+% version 2005/12/01 or later.
+%
+% This work has the LPPL maintenance status `maintained'.
+%
+% The Current Maintainer of this work is Feng Kaiyu.
+%
+% Compile with: xelatex -> biber -> xelatex -> xelatex
+
+% ==== 攻读学位期间发表论文与研究成果清单 ====
+% 以下内容存放个人的攻读学位期间发表论文与研究成果清单中的文献。
+% 详细用法请参考 `./misc/pub.tex` 中的注释。
+
+% 以下语句 `author+an = {1:myself="\Author"}` 用于指定论文作者的位置。
+% 其中，
+% - `1` 表示论文作者的位置，即论文作者的位置是第 1 个。
+% - `myself` 为固定标记不需要修改
+% - `\Author` 是一个 LaTeX 命令，会替换为作者的中文名，并在盲审模式下默认替换为「第一作者」。
+
+% 比如，若论文作者为「李四、张三、王五」，则应该写成：
+% `author+an = {2:myself="\Author[2]"}`
+% 再比如，若论文作者为「李四、张三、王五、赵六」（你是共同二作），则应该写成：
+% `author+an = {2:myself="\Author[][][共同二作]"}`
+% **\Author 的具体用法请参考手册**。
+
+% `annotation = {}` A sentence that specifies additional content for the entry.
+
+% **注意：如果你的参考文献同时出现在「攻读学位期间发表论文与研究成果清单」和「参考文献」中，
+% 请将条目分别添加进入 main.bib 与 pub.bib 文件中，并修改它们的key以避免重名；切勿重复使用。**
+%
+%@article{myCiteKey,
+%  title = {交联型与线形水性聚氨酯的形状记忆性能比较},
+%  author = {张三 and 李杰 and 罗运军},
+%  author+an = {1:myself="\Author"},
+%  journal = {化工进展},
+%  year = {2006},
+%  number = {01},
+%  pages = {78-81},
+%  keywords = {交联;线形;水性聚氨酯;形状记忆性能},
+%  abstract = {由聚酯多元醇、2,4–甲苯二异氰酸酯、二羟甲基丙酸等合成了水性聚氨酯乳液,
+%              对乳液性能进行了研究;对制得的聚氨酯胶膜进行了红外分析、dsc测试和形状记忆性能测试;用丙三醇和三羟甲基丙烷作为扩链制得的交联水性聚氨酯与用1
+%              ,4–丁二醇制得的线形水性聚氨酯进行了性能比较,结果表明},
+%  issn = {1000-6613},
+%  annotation = {EI 收录, 检索号:06129773469. 已刊出.},
+%}
+%
+%@article{myCiteKey2,
+%  title = {交联型与线形水性聚氨酯的形状记忆性能比较},
+%  author = {李杰 and 张三 and 罗运军},
+%  author+an = {2:myself="\Author[][][共同二作]"},
+%  journal = {化工进展},
+%  year = {2007},
+%  number = {01},
+%  pages = {78-81},
+%  keywords = {交联;线形;水性聚氨酯;形状记忆性能},
+%  abstract = {由聚酯多元醇、2,4–甲苯二异氰酸酯、二羟甲基丙酸等合成了水性聚氨酯乳液,
+%              对乳液性能进行了研究;对制得的聚氨酯胶膜进行了红外分析、dsc测试和形状记忆性能测试;用丙三醇和三羟甲基丙烷作为扩链制得的交联水性聚氨酯与用1
+%              ,4–丁二醇制得的线形水性聚氨酯进行了性能比较,结果表明},
+%  issn = {1000-6613},
+%  annotation = {EI 收录, 检索号:06129773469. 已刊出.},
+%}
+%
+%@book{dummy:1,
+%  author = "San Zhang",
+%  author+an = {1:myself="\AuthorEn"},
+%  title = "The Book without Title",
+%  publisher = "Dummy Publisher",
+%  year = "2100",
+%  annotation = {已出版.},
+%}
+
+
+
+
+@article{pub1,
+  title = {Connecting Action Semantics and Human Motion using Fuzzy Qualitative Kinematics},
+  author = {Ali Asghar Manjotho and Tekie Tsegay Tewolde and Zhendong Niu},
+  author+an = {1:myself="\Author"},
+  journal = {IEEE Transactions on Fuzzy Systems},
+  year = {2024},
+  number = {},
+  pages = {},
+  keywords = {},
+  abstract = {},
+  issn = {1063-6706},
+  annotation = {SCI, Under Review},
+}
+
+@article{pub2,
+  title = {From Action to Reaction: Latent Space Regularization and Alignment for Human Reaction Motion Generation with Intermediate Motion Semantics },
+  author = {Ali Asghar Manjotho and Tekie Tsegay Tewolde and Zhendong Niu},
+  author+an = {1:myself="\Author"},
+  journal = {IEEE Transactions on Multimedia},
+  year = {2024},
+  number = {},
+  pages = {},
+  keywords = {},
+  abstract = {},
+  issn = {1520-9210},
+  annotation = {SCI, Under Review},
+}
+
+@article{pub3,
+  title = {Coarse-to-Fine 3D Human Pose Estimation using Anthropometric Constraints and Synthetic Localization Errors},
+  author = {Ali Asghar Manjotho and Tekie Tsegay Tewolde and Zhendong Niu},
+  author+an = {1:myself="\Author"},
+  journal = {IEEE Transactions on Intelligent Vehicles},
+  year = {2024},
+  number = {},
+  pages = {},
+  keywords = {},
+  abstract = {},
+  issn = {2379-8858},
+  annotation = {SCI, Under Review},
+}
+
+@article{pub4,
+  title = {Skeleton-Based ST-GCN for Human Action Recognition With Extended Skeleton Graph and Partitioning Strategy},
+  author = {Quanyu Wang and Kaixiang Zhang and Ali Asghar Manjotho},
+  author+an = {3:myself="\Author[3]"},
+  journal = {IEEE Access},
+  year = {2022},
+  number = {},
+  volume={10},
+  pages = {41403-41410},
+  keywords = {Skeleton;Feature extraction;Joints;Data mining;Pose estimation;Video sequences;Trajectory;Action recognition;deep learning;graph convolutional network;human skeleton;partition strategy},
+  abstract = {},
+  issn = {2169-3536},
+  annotation = {SCI, Published},
+}
+
+
+@book{patent:1,
+  author = "Ali Asghar Manjotho and Wang Quanyu and Zhang Kaixiang and Sun Yue",
+  author+an = {1:myself="\Author"},
+  title = "Pose correction using real-time pose buffer in a Human Pose Estimation (HPE) system (人体姿势估计系统中使用实时姿势缓冲区校正的方法)",
+  publisher = "State Intellectual Property Office of the People's Republic of China",
+  year = "2022",
+  annotation = {CN115083018A, Accepted},
+}
+
+@book{patent:2,
+  author = "Ali Asghar Manjotho and Wang Quanyu and Sun Yue and Zhang Kaixiang",
+  author+an = {1:myself="\Author"},
+  title = "Pose stabilization in real-time 2D Human Pose Estimation (HPE) System (实时2D人体姿势估计系统中的姿势稳定系统和方法)",
+  publisher = "State Intellectual Property Office of the People's Republic of China",
+  year = "2022",
+  annotation = {CN113762129A, Accepted},
+}
+
+@book{patent:3,
+  author = "Ali Asghar Manjotho and Wang Quanyu and Sun Yue and Zhang Kaixiang",
+  author+an = {1:myself="\Author"},
+  title = "Anthropometric limb depth corrector for 2D to 3D pose mapping in a 2D Human Pose Estimation (HPE) system (2D人体姿态估计系统中基于人体测量的肢体校正器)",
+  publisher = "State Intellectual Property Office of the People's Republic of China",
+  year = "2022",
+  annotation = {CN113643362A, Accepted},
+}
+
+@book{patent:4,
+  author = "Ali Asghar Manjotho and Wang Quanyu and Wang Zhi and Zhang Kaixiang",
+  author+an = {1:myself="\Author"},
+  title = "Head pose estimation via minimalistic facial landmark set in a real-time 2D Human Pose Estimation (HPE) System (一种通过简单面部关键点实时估计2D头部姿势的方法)",
+  publisher = "State Intellectual Property Office of the People's Republic of China",
+  year = "2022",
+  annotation = {CN113837098A, Accepted},
+}

@@ -1,0 +1,198 @@
+% !TeX document-id = {1082b3d7-4443-4f42-9d9f-82b1b21d1577}
+
+% The BIThesis Template for Graduate Thesis
+% Copyright 2020-2023 Yang Yating, BITNP
+% Compile with: xelatex -> biber -> xelatex -> xelatex
+
+% !TeX program = xelatex
+% !BIB program = biber
+
+% type=master
+% type=doctor
+% blindPeerReview=true (example: [type=master,blindPeerReview=true])
+% twoside=true (example: [type=master,twoside=true]）
+%
+
+% Under Linux and macOS systems, due to copyright issues, Chinese fonts are different from those under Windows systems.
+% If you want to get the same effect as a Word document, you have two options:
+% 1. Compile the final paper using Windows system.
+% 2. Manually install Zhongyi font and add the option: `\documentclass[...,ctex={fontset=windows}]{bithesis}`.
+
+
+\documentclass[type=doctor,twoside=false, english=true]{bithesis}
+
+% Only commonly used configurations are listed here. Please see the "bithesis.pdf" manual for all configuration usage.
+
+
+%%%    !!!!!IMPORTANT!!!!!
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% DONT PLACE ANY BLANK LINE in BITSetup
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\BITSetup{
+  cover = {
+    %% Use this option to change the cover date
+    date = 2024年6月,
+    autoWidthPadding = 0.25em,
+  },
+  info = { 	
+  	% If you want to delete a certain item of cover information, just delete the item directly.
+  	% If you want to leave a certain cover information blank (but keep the underline), please pass in a string composed of whitespace characters, such as "{~}".
+  	% If line breaks are required, use "\\" symbols to separate them.
+    classification = TQ028.1,
+    UDC = 540,
+    title = 在虚拟现实中实现非语言互动社交化身的新方法,    
+    % To override the vertical title, configure the following options.
+    % The following example shows how to use vertical or rotated English in a vertical title.
+    % verticalTitle = {形状记忆聚氨酯{L } {T } {X }的合成 \rotatebox[origin=c]{-90}{Feng Kaiyu} 及其在织物中的应用},   
+    % verticalTitle = {Title.... {L} {T} {X} \rotatebox[origin=c]{-90}{Feng Kaiyu} and its application},
+    titleEn = Novel Methods for Realizing Non-Verbal Interactive Social Avatars in Virtual Reality,
+    author =艾力,    
+    % If you want to manually control the hidden information in blind review mode, you can use the macro \SecretInfo{}. There are two ways to use it, such as:
+    % major = \SecretInfo{Materials Science and Engineering} can get ******* (replace with equivalent substitution symbols)
+    % major = \SecretInfo{Materials Science and Engineering}[ABCDEF] can get ABCDEF (replace with your custom content)  
+    major = 计算机科学与技术,
+    school = 计算机学院,
+    degree = 工学硕士,
+    chairman = 老师,
+    defenseDate = 2024年6月1日,
+    supervisor = 老师,
+    authorEn = Manjotho Ali Asghar,
+    schoolEn = Computer Science,
+    supervisorEn = Prof.,
+    chairmanEn = Prof. ,
+    degreeEn = Doctor of Engineering,
+    majorEn = Computer Science and Technology, 
+    defenseDateEn = {June, 1st, 2024},
+    keywords = {人类运动理解；社交化头像；模糊定性运动学；量化运动令牌。},
+    keywordsEn = {Human motion understanding; social avatars; fuzzy qualitative kinematics; quantized motion tokens.}
+    % Place in the upper right corner of the cover if necessary and mark in accordance with national regulations.
+    % classifiedLevel = confidentiality level\BigStar confidentiality period,
+  },
+	% Do not display the title of the summary and main symbol comparison table in the contents page.
+  TOC = {
+    abstract = false,
+    abstractEn = false,
+    symbols = false,
+  },
+  style = {
+    pageVerticalAlign = scattered,
+    % Enable Zhongyi Song font pseudo-bold font under Windows platform.
+    % windowsSimSunFakeBold = true,
+  },
+  publications = {
+    % The following two options will affect the omission threshold of the name list in the "List of Papers and Research Results Published During the Degree Study".
+    % Generally speaking, if you are ranked fourth lowest among all documents, it is recommended that you set both values ​​to 4.
+    % See the manual for more detailed instructions.
+    maxbibnames = 3,
+    minbibnames = 1,
+  },
+  % Adopt chapter title level appendix format
+  appendices / chapterLevel = true,
+  const = {
+    % Due to the inconsistency between the existing Word template and the old LaTeX template and the "Beijing Institute of Technology Graduate Thesis Writing Standards",
+    % Some fields on the paper cover require users to manually adjust them according to their own circumstances.
+    % The default value currently given is set in accordance with the requirements in the "Guidelines for Writing Postgraduate Dissertations of Beijing Institute of Technology" released in 2018.
+    % For example, the commented out line will change the "Application for Degree Level" in the cover page to "Application for Degree".
+    % info / degree = {Apply\quad{}please\quad{}study\quad{}degree},
+    % info / major = {study\quad{}subject\hspace{5pt}/\hspace{5pt}category\quad{}category}
+  }
+}
+
+% Most modifications to the reference style can be configured through the options here.
+% Please search "biblatex-gb7714-2015 document" for details.
+\usepackage[
+  defernumbers=true,
+  backend=biber,
+  style=gb7714-2015,
+  gbalign=gb7714-2015,
+  gbnamefmt=lowercase,
+  gbpub=false,
+  gbannote=true,
+  gbpunctin=false,
+  doi=false,
+  url=false,
+  eprint=false,
+  isbn=false,
+]{biblatex}
+
+
+% Add references
+\addbibresource{reference/main.bib}
+% List of papers and research results published during the degree study. For detailed usage, please see `chapters/pub.tex`.
+\addbibresource{reference/pub.bib}
+
+
+\usepackage{graphicx}
+\usepackage{makecell}
+\usepackage{booktabs}
+\usepackage{algorithm}
+\usepackage{algorithmicx}
+\usepackage{algpseudocode}
+\usepackage{rotating}
+%\usepackage{setspace}
+
+\begin{document}
+
+% Print title page
+\MakeCover
+
+
+% Print spine
+\MakePaperBack
+
+% Chinese information and English information
+\MakeTitle
+
+% Paper originality statement and use authorization
+\MakeOriginality
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Prefix
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\frontmatter
+
+% Abstract
+\input{./chapters/abstract.tex}
+
+% Table of contents
+\MakeTOC
+
+% List of figures
+\listoffigures
+
+% List of tables
+\listoftables
+
+% Symbol table
+\input{./misc/0_symbols.tex}
+
+\mainmatter
+
+% Please add chapters in order according to the content of the paper.
+\input{./chapters/chapter1.tex}
+\input{./chapters/chapter2.tex}
+\input{./chapters/chapter3.tex}
+\input{./chapters/chapter4.tex}
+
+\backmatter
+
+% Conclusion
+\input{./misc/1_conclusion.tex}
+
+% References
+\input{./misc/2_reference.tex}
+
+% Appendices
+\input{./misc/3_appendices.tex}
+
+% Personal achievements
+\input{./misc/4_pub.tex}
+
+% Acknowledgments
+\input{./misc/5_acknowledgements.tex}
+
+% Personal profile (only required for doctoral students)
+\input{./misc/6_resume.tex}
+
+
+\end{document}
