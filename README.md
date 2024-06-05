@@ -4,7 +4,7 @@ The latex template for BIT-Thesis submission (Masters and PhD) (English Version)
 ## Setup the environment
 1. Download TexLive
 ```
-https://eu.mirrors.cicku.me/ctan/systems/texlive/Images/texlive2023.iso
+[https://eu.mirrors.cicku.me/ctan/systems/texlive/Images/texlive2023.iso](https://eu.mirrors.cicku.me/ctan/systems/texlive/Images/texlive2024.iso)
 ```
 3. Install TexLive by running install-tl-windows.exe
 4. Confirm installation
